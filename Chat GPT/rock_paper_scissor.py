@@ -5,195 +5,48 @@ print("Let's begin!")
 list=["rock","paper","scissor"]
 scorer=0
 scoreh=0
-robot=random.choice(list)
-human=input(str("Enter your move=")).lower()
-if (robot=="rock")&(human=="scissor"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="rock")&(human=="paper"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="rock"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="scissor"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="rock"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="paper"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot==human):
-    print("It's a tie!")
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-
-
-print("Round 2")
-robot=random.choice(list)
-human=input(str("Enter your move=")).lower()
-if (robot=="rock")&(human=="scissor"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="rock")&(human=="paper"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="rock"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="scissor"):
-    print("You won!")
-    scoreh=+1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="rock"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="paper"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot==human):
-    print("It's a tie!")
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-
-print("Round 3")
-robot=random.choice(list)
-human=input(str("Enter your move=")).lower()
-if (robot=="rock")&(human=="scissor"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="rock")&(human=="paper"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="rock"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="scissor"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="rock"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="paper"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot==human):
-    print("It's a tie!")
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-
-print("Round 4")
-robot=random.choice(list)
-human=input(str("Enter your move=")).lower()
-if (robot=="rock")&(human=="scissor"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="rock")&(human=="paper"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="rock"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="scissor"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="rock"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="paper"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot==human):
-    print("It's a tie!")
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-
-print("Round 5")
-robot=random.choice(list)
-human=input(str("Enter your move=")).lower()
-if (robot=="rock")&(human=="scissor"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="rock")&(human=="paper"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="rock"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="paper")&(human=="scissor"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="rock"):
-    print("You won!")
-    scoreh+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot=="scissor")&(human=="paper"):
-    print("You lost!")
-    scorer+=1
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
-elif (robot==human):
-    print("It's a tie!")
-    print(f"The robot's score is {scorer}")
-    print(f"Your score is {scoreh}")
+round=1
+for i in range(5):
+    human=input(str("Enter your move=")).lower()
+    robot=random.choice(list)
+    if (robot=="rock")&(human=="scissor"):
+        print("You lost!")
+        scorer+=1
+        print(f"The robot's score is {scorer}")
+        print(f"Your score is {scoreh}")
+    elif (robot=="rock")&(human=="paper"):
+        print("You won!")
+        scoreh+=1
+        print(f"The robot's score is {scorer}")
+        print(f"Your score is {scoreh}")
+    elif (robot=="paper")&(human=="rock"):
+        print("You lost!")
+        scorer+=1
+        print(f"The robot's score is {scorer}")
+        print(f"Your score is {scoreh}")
+    elif (robot=="paper")&(human=="scissor"):
+        print("You won!")
+        scoreh+=1
+        print(f"The robot's score is {scorer}")
+        print(f"Your score is {scoreh}")
+    elif (robot=="scissor")&(human=="rock"):
+        print("You won!")
+        scoreh+=1
+        print(f"The robot's score is {scorer}")
+        print(f"Your score is {scoreh}")
+    elif (robot=="scissor")&(human=="paper"):
+        print("You lost!")
+        scorer+=1
+        print(f"The robot's score is {scorer}")
+        print(f"Your score is {scoreh}")
+    elif (robot==human):
+        print("It's a tie!")
+        print(f"The robot's score is {scorer}")
+        print(f"Your score is {scoreh}")
+    else:
+        print("Invalid Input")
+    round+=1
+    print(f"Round {round}")
 
 print(f"Your final score is {scoreh}")
 print(f"The robot's final score is {scorer}")
